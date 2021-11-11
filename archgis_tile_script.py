@@ -48,8 +48,8 @@ def createTile(bbox, mapOffset, iterationsX, iterationsY, savePath):
 
             ex = arcpy.Extent(
                 bbox[0][0] - x * 30, # X min
-                bbox[1][0] + y * 30, # X max
-                bbox[0][1] - x * 30, # Y min
+                bbox[0][1] + y * 30, # X max
+                bbox[1][0] - x * 30, # Y min
                 bbox[1][1] + y * 30 # Y max
                 )
 
