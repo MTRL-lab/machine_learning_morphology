@@ -10,7 +10,7 @@
 # Choose the scale of the map
 # Edit the parameters bellow
 # 
-# Copyright Anna Boim
+# Copyright Anna Boim and Jonathan Dortheimer
 # License MIT
 ###
 import os
